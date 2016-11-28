@@ -1,0 +1,64 @@
+img {
+    height: 75px;
+    margin: 10px;
+}
+
+main {
+    margin: 30px;
+}
+
+header {
+    margin: 30px;
+}
+
+#navname {
+    display: inline;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+nav ul {
+    padding: 5px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin: 10px 50px;
+}
+
+.container {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.placeholder1 {
+    float: left;
+}
+
+.placeholder2 {
+    float: right;
+}
+
+#clearright {
+    clear: right;
+}
+
+#clearleft {
+    clear: left;
+}
+
+#bothfloat {
+    clear: both;
+}
+
+footer {
+    background-color: lightblue;
+}

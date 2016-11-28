@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teaching Presentation | samsulli99.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/teaching-presentation.css">
+</head>
+
+<body>
+    <nav>
+        <h1 id="navname">samsulli99.github.io</h1>
+        <ul>
+            <li> <a href="/index.html" title="Return to my home page">Home</a> </li>
+            <li> <a href="/homework/franklin-page.html" title="See my Franklin Weather Page">Franklin Weather</a> </li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Float Teaching Presentation</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+        <p>Okay, so here's the thing about Floats. They can be really powerful, but really frustrating. Floating will take an elements out of the normal 'flow' of the document, and have them stay to either the left or the right side of the container it's in, regardless of whatever else is inside the container with it. The property for floating elements are <strong>float: left; float: right; and float: inherit</strong>. The default is <strong>float: none;</strong>. An element with an inherited float will get whatever it's parent element has for a float.</p>
+        <p>Floated elements will rest against one of three things, once they are told to float:</p>
+        <ol>
+            <li>The viewport edge</li>
+            <li>The parent container edge</li>
+            <li>Another floated element</li>
+        </ol>
+        <p>You can see examples of left and right floating below.</p>
+        </section>
+        
+        <h2>Floating Elements</h2>
+        
+        <h3>Left Floating</h3>
+        <section class="container">
+            <img class="placeholder1" src="/images/logo-placeholder.png" alt="logo placeholder image">
+            <p>Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. </p>
+            <p>As you can see here, the img has been pushed to the left edge of the parent container, or the grey box. It has a margin of 10 pixels. The text is being wrapped around the floated image. </p>
+        </section>
+        <h3>Right Floating</h3>
+        <section class="container">
+            <img class="placeholder2" src="/images/logo-placeholder.png" alt="logo placeholder image">
+            <p>Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. </p>
+            <p>Here in this section, the image is being floated to the right. </p>
+        </section>
+        <section class="intro">
+            <p>Floating a block element will cause it to become a float box, which is like an inline element in that the border wraps around the content. You can apply width and height to float boxes so they become sized.</p>
+            <p>Floating an inline element will also cause it to become a float box. You can then add margin, padding, width, and height to a floated inline element. </p>
+        </section>
+        
+        <h2>Clearing Floated Elements</h2>
+        <section class="intro">
+            <p>If you don't want certain elements to interact and move according to a floated element sitting above it, you can use the <strong>clear</strong> element. This will make the elements you choose sit below the floated element.</p>
+            <p>The properties for a clear element are <strong>clear: right; clear: left;</strong>and <strong>clear: both;</strong>. You can see examples below.</p>
+        </section>
+        
+        <h3>Clearing Left Floating</h3>
+        <section class="container">
+            <img class="placeholder1" src="/images/logo-placeholder.png" alt="logo placeholder image">
+            <p id="clearleft">Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. </p>
+        </section>
+        <p class="intro">The paragraph is clearing the floated image because the image is floated using the <strong>float: left</strong> property and the <strong>clear: left</strong> property is made specifically to ignore the left float.</p>
+        
+        <h3>Clearing Right Floating</h3>
+        <section class="container">
+            <img class="placeholder2" src="/images/logo-placeholder.png" alt="logo placeholder image">
+            <p id="clearright">Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. </p>
+        </section>
+        <p class="intro">The paragraph is clearing the floated image because the image is floated using the <strong>float: right</strong> property and the <strong>clear: right</strong> property is made specifically to ignore the right float.</p>
+        
+        <h3>Clearing Both Floating</h3>
+        <section class="container">
+            <img id="placeholder1" src="/images/logo-placeholder.png" alt="logo placeholder image">
+            <img id="placeholder2" src="/images/logo-placeholder.png" alt="logo placeholder image">
+            <p id="bothfloat">Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. Here is a block of text. </p>
+        </section>
+        <p class="intro">The paragraph is clearing the floated images because the images are floated using both the <strong>float: left</strong> property and the <strong>float: right</strong> property. The <strong>clear: both</strong> property is made specifically to ignore the floats above it. The default for the clear property is <strong>clear: none</strong></p>
+    </main>
+
+    <footer>
+        <ul>
+            <li>&copy;2016</li>
+            <li>Samantha Sullivan</li>
+            <li>Last Updated: 10/19/2016</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
+
+<!--SO TIRED. DANG. WOW. NEED SLEEP.-->
