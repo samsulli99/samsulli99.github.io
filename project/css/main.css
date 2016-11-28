@@ -1,0 +1,7 @@
+#wrapper {
+  display: flex;
+}
+#page-header {
+  background-color: lightcoral;
+  display: flex;
+}
