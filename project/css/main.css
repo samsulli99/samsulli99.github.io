@@ -10,7 +10,7 @@
 }
 
 #page-header {
-  background-color: lightcoral;
+  background-color: lightblue;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -41,7 +41,7 @@
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-  background-color: lightcoral;
+  background-color: lightblue;
   width: 100%;
   margin: 0;
   flex-wrap: wrap;
@@ -62,13 +62,13 @@ main {
 }
 
 h1 {
-  background-color: lightcoral;
+  background-color: lightblue;
   align-items: center;
 }
 
 #page-footer{
   display: flex;
-  background-color: lightcoral;
+  background-color: lightblue;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -89,7 +89,7 @@ h1 {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    background-color: lightcoral;
+    background-color: lightblue;
     width: 100%;
     margin: 0;
     flex-wrap: wrap;
@@ -107,7 +107,7 @@ h1 {
   }
 
   nav a:link, nav a:visited {
-    color: lightcoral;
+    color: lightblue;
   }
 
   #nav-imgs {
