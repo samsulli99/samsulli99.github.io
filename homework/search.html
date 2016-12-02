@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Franklin Weather Page</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
+  </head>
+  <!--
+*********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Samantha Sullivan
+* 2. Calvin Milliron
+* 3. Brianne Groom
+* 4. Maksim Efoshkin
+* 5.
+* ******************************************** -->
+  <body>
+    <div id="content">
+      <header id="page-header"></header>
+
+      <div id="center">
+        <nav id="page-nav">
+          <noscript>JavaScript is not enabled. For navigation, visit the <a href="sitemap.html">Site Map</a></noscript>
+        </nav>
+        <main>
+          <!--Search Form-->
+          <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+            <input type="search" name="query" id="query">
+            <input type="submit" name="submit" value="Search" id="send">
+          </form>
+
+          <!--Search Results Area-->
+          <section id="searchResults">
+            <h2>Search Results</h2>
+          </section>
+
+          <section id="cityResults">
+            <div id="cityDisplay" class="results"></div>
+            <div id="currentTemp" class="results"></div>
+            <div id="currentHigh" class="results"></div>
+            <div id="currentLow" class="results"></div>
+            <div id="summary" class="results"></div>
+          </section>
+        </main>
+      </div>
+
+      <footer id="page-footer">
+      </footer>
+    </div>
+  </body>
+  <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script src="/javascript/modules.js"></script>
+  <script src="/javascript/search.js"></script>
+</html>
