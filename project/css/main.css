@@ -14,17 +14,16 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
 }
 
-#site-logo, #search {
+#site-logo {
   margin: 1em 1em 1em 1.5em;
   height: 8em;
 }
 
-#search {
-  height: 2.5em;
+#head-h1 {
+  display: none;
 }
 
 #page-nav {
@@ -88,6 +87,15 @@ h1 {
 
 @media screen and (min-width:600px){
 
+  #page-header {
+    justify-content: center
+  }
+
+  #head-h1 {
+    display: flex;
+    color: white;
+  }
+
   #page-nav > #nav-words {
     list-style-type: none;
     display: flex;
@@ -119,4 +127,13 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1024px){}
+@media screen and (min-width: 1024px){
+
+  #page-header {
+    justify-content: space-between;
+  }
+
+  #head-h1 {
+    margin-right: 1em;
+  }
+}
