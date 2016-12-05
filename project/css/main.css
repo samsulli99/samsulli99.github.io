@@ -9,6 +9,10 @@
   justify-content: center;
 }
 
+main {
+  margin-bottom: 3em;
+}
+
 #page-header {
   background-color: lightblue;
   display: flex;
