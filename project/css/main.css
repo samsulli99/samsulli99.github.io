@@ -20,7 +20,7 @@
 
 #site-logo, #search {
   margin: 1em 1em 1em 1.5em;
-  height: 4em;
+  height: 8em;
 }
 
 #search {
@@ -80,6 +80,10 @@ h1 {
 
 .media-logos {
   height: 2em;
+}
+
+.homework-list {
+  list-style-type: none;
 }
 
 @media screen and (min-width:600px){
