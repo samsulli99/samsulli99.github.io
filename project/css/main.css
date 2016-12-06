@@ -89,6 +89,14 @@ h1 {
   list-style-type: none;
 }
 
+.shoes, .heels {
+  width: 80%;
+}
+
+.boots {
+  width: 85%;
+}
+
 @media screen and (min-width:600px){
 
   #page-header {
@@ -129,6 +137,14 @@ h1 {
   #nav-imgs {
     display: none;
   }
+
+  .shoes, .heels {
+    width: 40%;
+  }
+
+  .boots {
+    width: 35%;
+  }
 }
 
 @media screen and (min-width: 1024px){
@@ -139,5 +155,13 @@ h1 {
 
   #head-h1 {
     margin-right: 1em;
+  }
+
+  .shoes, .heels {
+    width: 50%;
+  }
+
+  .boots {
+    width: 45%;
   }
 }
