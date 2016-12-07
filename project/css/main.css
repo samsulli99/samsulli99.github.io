@@ -97,6 +97,10 @@ h1 {
   width: 85%;
 }
 
+.sketches {
+  width: 80%;
+}
+
 @media screen and (min-width:600px){
 
   #page-header {
@@ -145,6 +149,10 @@ h1 {
   .boots {
     width: 35%;
   }
+
+  .sketches {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 1024px){
@@ -163,5 +171,9 @@ h1 {
 
   .boots {
     width: 45%;
+  }
+
+  .sketches {
+    width: 30%;
   }
 }
