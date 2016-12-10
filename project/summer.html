@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/project/css/main.css" media="screen">
   </head>
 
-  <body>
+  <body onload="getData('summer')">
     <div id="wrapper">
       <header id="page-header">
       </header>
@@ -21,18 +21,27 @@
       <main>
         <h1 id="title">Summer</h1>
         <p><small>By Samantha Sullivan, 11/28/16</small></p>
-        <p><em>This is a summary page of the clothing the sister missionaries for the Church of Jesus Christ of Latter-Day Saints should expect to wear during the summer months when in Toronto, Canada.</em></p>
+        <p id="introText"><em></em></p>
         <h2>Shoes</h2>
-        <img class="shoes" srcset="/project/images/shoe-300.jpg 300w, /project/images/shoe-375.jpg 375w, /project/images/shoe-500.jpg 500w"
-             alt="Walking and Tracting Shoe"
-             title="Summer Shoe">
-        <p>Shoes mustn't be open toed in the mission, but they also must be comfortable for walking around and tracting. Make sure whatever pair of shoes get chosen are broken in before serious use.</p>
+        <picture id="shoeImg" class="shoes">
+          <source srcset="/project/images/shoe-500.jpg"
+                  media="(min-width: 1024px)">
+          <source srcset="/project/images/shoe-375.jpg"
+                  media="(min-width: 600px)">
+          <img srcset="/project/images/shoe-300.jpg"
+               alt="Summer Walking shoe"
+               title="Summer Shoe">
+        </picture>
+        <p id="shoeText"></p>
         <h2>Skirts/Dresses</h2>
-        <p>Content Text Here</p>
-        <h2>Shirts/Jackets</h2>
-        <p>Content Text Here</p>
+        <p id="skirtText"></p>
+        <h2>Shirts</h2>
+        <p id="shirtText"></p>
+        <h2>Jackets</h2>
+        <p id="coatText"></p>
         <h2>Accessories</h2>
-        <p>Content Text Here</p>
+        <p id="accessText"></p>
+
       </main>
 
       <footer id="page-footer">
@@ -47,6 +56,7 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="/project/js/modules.js"></script>
+    <script src="/project/js/main.js"></script>
 
   </body>
 </html>

@@ -1,44 +1,24 @@
 {
   "winter": {
-    "highest temp": {
-      "celsius": "10°",
-      "fahrenheit": "50°"
+    "intro": "This is a summary page of the clothing that sister missionaries should bring for the winter months when on a mission for the Church of Jesus Christ of Latter-Day Saints.",
+    "shoes": {
+      "img": "",
+      "shoe": "Winter shoes should be waterproof, but insulated. There is a lot of snow in the winter, but it can quickly turn pretty slushy. These will ruin any boots that aren't prepared for the sudden onslaught of the liquid form of water instead of the frozen form. Make sure your shoes are easily removable though, since missionaries take off their shoes as a courtesy when entering a home."
     },
-    "lowest temp": {
-      "celsius": "-33°",
-      "fahrenheit": "-27°"
-    },
-    "average temp": {
-      "high": {
-        "celsius": "3°",
-        "fahrenheit": "38°"
-      },
-      "low": {
-        "celsius": "-3°",
-        "fahrenheit": "27°"
-      }
-    },
-    "average humidity": "75%"
+    "skirt": "Whatever skirt or dress you wear, make sure it's warm. But more importantly, make sure you are wearing fleece lined leggings or tights underneath. It will keep your legs warmer and help you stay safe from the cold.",
+    "shirt": "Long sleeves are advised for Toronto, as well as as many layers as you can manage. You can stay warmer outside, but take off what you need to once you get inside.",
+    "coat":"Wear a thick, insulated and wind-resistant coat in the winter. Toronto is notorious for it's bitter winds, and therefore a hood is also highly suggested. Wait until entering the mission field before purchasing a coat so it will be enough to keep you warm.",
+    "accessories":"A warm scarf, gloves, and hats are a must-have for time spent in Toronto. Two sets are suggested because of how wet one set can get when it snows, and you want dry things to put on."
   },
   "summer": {
-    "highest temp": {
-      "celsius": "40.6",
-      "fahrenheit": "105°"
+    "intro": "This is a summary page of the clothing the sister missionaries for the Church of Jesus Christ of Latter-Day Saints should expect to wear during the summer months when in Toronto, Canada.",
+    "shoes":{
+      "img": "shoes",
+      "shoe": "Summer shoes should be light in fabric because it gets pretty hot in the summertime. It also gets really humid, so if your feet get sweaty easily the humidity should be accounted for. Shoes mustn't be open toed in the mission, but they also must be comfortable for walking around and tracting. Make sure whatever pair of shoes get chosen are broken in before serious use."
     },
-    "lowest temp": {
-      "celsius": "20°",
-      "fahrenheit": "68°"
-    },
-    "average temp": {
-      "high": {
-        "celsius": "26°",
-        "fahrenheit": "78°"
-      },
-      "low": {
-        "celsius": "17°",
-        "fahrenheit": "62°"
-      }
-    },
-    "average humidity": "70%"
+    "skirt": "Skirts and dresses should be light and flowy so it doesn't get too hot. Not too flowy though, because Toronto gets pretty windy.",
+    "shirt": "Shirts should be short sleeved and made of light material to help you keep cooler in the warm temperature. It can get pretty hot in Toronto, so plan your outfits accordingly!",
+    "coat": "Bring a light jacket to use for the days it gets chillier, but for the most part it stays warmer in the summer months.",
+    "accessories": "Toronto is known for summer rains and storms, so bring an umbrella with you so you don't get caught in a sudden summer storm! Make sure it can take a good amount of rain."
   }
 }

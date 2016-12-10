@@ -23,9 +23,22 @@
         <p><small>By Samantha Sullivan, 11/28/16</small></p>
         <p><em>This is a summary of the clothing sister missionaries for the Church of Jesus Christ of Latter-Day Saints should have to wear during the Fall season in Toronto, Canada.</em></p>
         <h2>Shoes</h2>
-        <img class="shoes" srcset="/project/images/shoe-300.jpg 300w, /project/images/shoe-375.jpg 375w, /project/images/shoe-500.jpg 500w"
+        <picture id="shoeImg" class="shoes">
+          <source srcset="/project/images/shoe-500.jpg"
+                  media="(min-width: 1024px)">
+          <source srcset="/project/images/shoe-375.jpg"
+                  media="(min-width: 600px)">
+          <img srcset="/project/images/shoe-300.jpg"
+               alt="Fall Walking shoe"
+               title="Fall Shoe">
+        </picture>
+<!--
+        <img class="shoes" src="/project/images/shoe-300.jpg"
+             srcset="/project/images/shoe-300.jpg 300w, /project/images/shoe-375.jpg 375w, /project/images/shoe-500.jpg 500w"
+             sizes="(min-width: 600px) 1024px, 100vw"
              alt="Walking and Tracting Shoe"
              title="Fall Fashion for LDS missionaries">
+-->
         <p>Suggested footwear in the Fall season ranges from regular summer footwear like flats and close-toed sandals to boots.</p>
         <h2>Skirts/Dresses</h2>
         <p>Skirts and dresses in early fall should be knee length and loose. As the season progresses, they should get to be mid-calf length but no longer than that. </p>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/project/css/main.css" media="screen">
   </head>
 
-  <body>
+  <body onload="getData('winter')">
     <div id="wrapper">
       <header id="page-header">
       </header>
@@ -21,18 +21,26 @@
       <main>
         <h1 id="title">Winter</h1>
         <p><small>By Samantha Sullivan, 11/28/16</small></p>
-        <p><em>This is a summary page of the clothing that sister missionaries should bring for the winter months when on a mission for the Church of Jesus Christ of Latter-Day Saints.</em></p>
+        <p id="introText"><em></em></p>
         <h2>Shoes</h2>
-        <img class="boots" srcset="/project/images/boot-300.jpg 300w, /project/images/boot-375.jpg 375w, /project/images/boot-500.jpg 500w"
-             alt="Winter Appropriate Boot"
-             title="Winter Appropriate Boot">
-        <p>Content Text Here</p>
+        <picture id="shoeImg" class="boots">
+          <source srcset="/project/images/boot-500.jpg"
+                  media="(min-width: 1024px)">
+          <source srcset="/project/images/boot-375.jpg"
+                  media="(min-width: 600px)">
+          <img srcset="/project/images/boot-300.jpg"
+               alt="Winter Boot"
+               title="Winter Shoe">
+        </picture>
+        <p id="shoeText"></p>
         <h2>Skirts/Dresses</h2>
-        <p>Content Text Here</p>
-        <h2>Shirts/Jackets</h2>
-        <p>Content Text Here</p>
+        <p id="skirtText"></p>
+        <h2>Shirts</h2>
+        <p id="shirtText"></p>
+        <h2>Jackets</h2>
+        <p id="coatText"></p>
         <h2>Accessories</h2>
-        <p>Content Text Here</p>
+        <p id="accessText"></p>
       </main>
 
       <footer id="page-footer">
@@ -47,6 +55,8 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="/project/js/modules.js"></script>
+    <script src="/project/js/main.js"></script>
+
 
   </body>
 </html>
