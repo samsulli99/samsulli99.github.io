@@ -101,6 +101,10 @@ h1 {
   width: 80%;
 }
 
+.featured-video {
+  width: 80%;
+}
+
 @media screen and (min-width:600px){
 
   #page-header {
